@@ -1,0 +1,12 @@
+a:=3;
+b:=x;
+d:=4;
+x:=100;
+if a>b goto b3;
+c := a+b;
+d :=2;
+b3:
+c := 4;
+t1 := b*d;
+t2:= t1 + c;
+return t2;

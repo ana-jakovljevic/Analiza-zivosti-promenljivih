@@ -1,0 +1,7 @@
+a:=0;
+label2:
+b:= a+ 1;
+c := c+b;
+a := b*2;
+if a<100 goto label2;   
+return c;

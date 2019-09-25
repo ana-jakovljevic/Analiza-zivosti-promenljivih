@@ -1,0 +1,11 @@
+a := 3;
+b := 5;
+d := 4;
+x := 100;
+if a<b goto label3;
+c := a +b;
+d:=2;
+label3:
+c:= 4;
+t1 := b*d;
+t2 := t1+c;

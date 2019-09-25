@@ -1,0 +1,19 @@
+    i := 1;
+label2:
+    j := 1;
+label1:
+    t1 := 10 * i;
+    t2 := t1+j;
+    t3:= 8*t2;
+    t4 := t4- 88;
+    a[t4] := 0.0;
+    if j<=10 goto label1;
+    i := i+1;
+    if i<=10 goto label2;
+    i := 1;
+label3:
+    t5 := i-1;
+    t6 := 88*t5;
+    a[t6] := 1.0;
+    i:= i+1;
+    if i <= 10 goto label3;
